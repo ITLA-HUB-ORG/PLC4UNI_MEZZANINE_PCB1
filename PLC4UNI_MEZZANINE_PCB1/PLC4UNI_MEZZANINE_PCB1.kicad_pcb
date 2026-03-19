@@ -6534,30 +6534,6 @@
 		)
 	)
 	(gr_arc
-		(start 128.27 77.911573)
-		(mid 128.117759 78.67694)
-		(end 127.684214 79.325786)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "151f24a7-7a10-492e-8def-2af302cfde7a")
-	)
-	(gr_arc
-		(start 119.126 88.298214)
-		(mid 119.20212 87.915531)
-		(end 119.418893 87.591107)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "27e11d20-5a7e-4961-9f47-5599affb9f5a")
-	)
-	(gr_arc
 		(start 98.044 67.392)
 		(mid 98.48334 66.33134)
 		(end 99.544 65.892)
@@ -6581,28 +6557,6 @@
 		(uuid "454b4526-4d89-4762-9eeb-93abf4f053c7")
 	)
 	(gr_line
-		(start 119.418893 87.591107)
-		(end 127.684214 79.325786)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "5d8f329b-3795-4bf3-9c21-b46289b207e0")
-	)
-	(gr_line
-		(start 128.27 77.911573)
-		(end 128.27 67.892)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "61066e57-bc18-4872-aec6-5a4a60dca61f")
-	)
-	(gr_line
 		(start 98.044 103.632)
 		(end 119.126 103.632)
 		(stroke
@@ -6612,6 +6566,40 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "773b39c8-d94b-4275-856f-8c214067a1a8")
+	)
+	(gr_arc
+		(start 119.126 88.298214)
+		(mid 119.20212 87.915531)
+		(end 119.418893 87.591107)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "27e11d20-5a7e-4961-9f47-5599affb9f5a")
+	)
+	(gr_line
+		(start 119.126 103.632)
+		(end 119.126 88.298214)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "d30a5602-e4f6-4a94-8f74-b25c7b5e4b70")
+	)
+	(gr_line
+		(start 119.418893 87.591107)
+		(end 127.684214 79.325786)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "5d8f329b-3795-4bf3-9c21-b46289b207e0")
 	)
 	(gr_line
 		(start 126.27 65.892)
@@ -6636,21 +6624,33 @@
 		(layer "Edge.Cuts")
 		(uuid "c3391b4e-2d30-4905-b03e-b59a0a0a487e")
 	)
-	(gr_line
-		(start 119.126 103.632)
-		(end 119.126 88.298214)
+	(gr_arc
+		(start 128.27 77.911573)
+		(mid 128.117759 78.67694)
+		(end 127.684214 79.325786)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "d30a5602-e4f6-4a94-8f74-b25c7b5e4b70")
+		(uuid "151f24a7-7a10-492e-8def-2af302cfde7a")
 	)
-	(gr_text "ITLA-HUB"
-		(at 141.986 94.488 0)
+	(gr_line
+		(start 128.27 77.911573)
+		(end 128.27 67.892)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "61066e57-bc18-4872-aec6-5a4a60dca61f")
+	)
+	(gr_text "PLC4UNI\nMEZZANINE_PCB1"
+		(at 130.556 95.965107 0)
 		(layer "F.SilkS")
-		(uuid "52209a91-7227-4a5d-8ffa-88d70a9521fd")
+		(uuid "99070039-b03b-4a14-add5-04a1857faf9a")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -6671,10 +6671,10 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PLC4UNI\nMEZZANINE_PCB1"
-		(at 130.556 95.965107 0)
+	(gr_text "MAR 2026"
+		(at 130.81 97.79 0)
 		(layer "F.SilkS")
-		(uuid "99070039-b03b-4a14-add5-04a1857faf9a")
+		(uuid "f376cb1f-7ee1-49a2-a63f-55ddd47e3e3d")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -6683,10 +6683,10 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "MAR 2026"
-		(at 130.81 97.79 0)
+	(gr_text "ITLA-HUB"
+		(at 141.986 94.488 0)
 		(layer "F.SilkS")
-		(uuid "f376cb1f-7ee1-49a2-a63f-55ddd47e3e3d")
+		(uuid "52209a91-7227-4a5d-8ffa-88d70a9521fd")
 		(effects
 			(font
 				(size 0.8 0.8)

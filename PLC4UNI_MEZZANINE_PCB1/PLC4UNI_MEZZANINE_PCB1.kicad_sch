@@ -915,6 +915,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:MC-121-L119"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3575,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 60.96) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07608295-5d01-424f-8fe0-4d147c327185")
+	)
+	(wire
+		(pts
 			(xy 55.88 147.32) (xy 55.88 149.86)
 		)
 		(stroke
@@ -4842,16 +4855,6 @@
 			(type default)
 		)
 		(uuid "d204b00a-2f95-42f1-ac11-8916d53e9de4")
-	)
-	(wire
-		(pts
-			(xy 80.01 57.15) (xy 80.01 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c70f56-faeb-44ee-8043-7a01e350e974")
 	)
 	(wire
 		(pts
@@ -22637,7 +22640,7 @@
 		)
 		(uuid "c4c4506f-f24c-49bf-a36a-c182ad073d3e")
 	)
-	(label "IM2"
+	(label "IM1"
 		(at 66.04 195.58 180)
 		(effects
 			(font
@@ -22947,7 +22950,7 @@
 			(uuid "53ca2770-43e2-4e41-9900-376e338f0d05")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "U2")
 					(unit 1)
@@ -23017,7 +23020,7 @@
 			(uuid "b97235de-f903-4dec-84ce-05f538e2ddb8")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "R1")
 					(unit 1)
@@ -23105,7 +23108,7 @@
 			(uuid "3afae855-15ae-485e-8103-0bcf1096e4f4")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "L1")
 					(unit 1)
@@ -23360,7 +23363,7 @@
 			(uuid "be84b524-34aa-4c6c-93a4-5db4c9f3fe4c")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "J1")
 					(unit 1)
@@ -24428,7 +24431,7 @@
 			(uuid "4a93d6a0-ce23-4a7d-ac07-e761ace699c4")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "#PWR016")
 					(unit 1)
@@ -24633,7 +24636,7 @@
 			(uuid "d1c2ef7b-9d6d-4d0c-99ad-3f7c21d60a9e")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "#FLG01")
 					(unit 1)
@@ -24875,7 +24878,7 @@
 			(uuid "afd0d930-ef17-41b3-a760-d6f7314acf34")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "Card1")
 					(unit 1)
@@ -25451,7 +25454,7 @@
 			(uuid "82b55788-3f5b-4c26-be8d-0ca391f6b4de")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "J2")
 					(unit 1)
@@ -25521,6 +25524,49 @@
 				(hide yes)
 			)
 		)
+		(property "PART_NUMBER" ""
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOL" ""
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOL" ""
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B8"
 			(uuid "97e4152f-ae3a-469c-99f5-7dc3e23edc05")
 		)
@@ -25561,7 +25607,7 @@
 			(uuid "932402c9-f65a-4433-9601-51fae2ce387c")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "U1")
 					(unit 1)
@@ -25815,7 +25861,7 @@
 			(uuid "8701c409-6134-4bb2-a747-f28d1eecd570")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNI_MEZZANINE_PCB1"
 				(path "/634695c0-52f9-40b2-8ed7-93bff347495a"
 					(reference "C1")
 					(unit 1)
